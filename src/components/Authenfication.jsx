@@ -32,6 +32,9 @@ const Authentification = () => {
     };
 
     return (
+        <div>
+            anndrana
+        </div>
         <div className="bg-white p-6 rounded shadow-md w-full max-w-md">
             <h2 className="text-2xl font-bold mb-6 text-center">Connexion</h2>
             {errorMessage && <div className="text-red-500 mb-4">{errorMessage}</div>}
